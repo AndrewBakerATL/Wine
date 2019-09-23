@@ -21,3 +21,5 @@ wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetric
 chmod +x winetricks
 
 WINEPREFIX=~/.wine wineboot -u WINEARCH=win64 WINEPREFIX=~/.wine winetricks fontsmooth=rgb gdiplus vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015 atmlib msxml3 msxml6 gdiplus corefonts
+
+exit
