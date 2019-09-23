@@ -34,7 +34,11 @@ Note: Rather than adding each command for each release structure, I'll just expl
 Now, to install the actual Wine application, use the following:<br>
 First, we need to update the actual repository we just added with `sudo apt-get update`. Afterwards, we can check for the package(s) with `sudo apt-get install --install-recommends winehq-stable`. After, go ahead and check the installation and version with `wine --version`.<br>
 
-Personally, I recommend to install Winetricks. It's a utility that allows you to manage your prefixes, as well as giving an arguably better GUI for many of Wine's functions, even adding some of its own. To do so, use (assuming you're at a location via CLI where you want to download it): `wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks`. Then use, `chmod +x winetricks`.
+Personally, I recommend to install Winetricks. It's a utility that allows you to manage your prefixes, as well as giving an arguably better GUI for many of Wine's functions, even adding some of its own. To do so, use (assuming you're at a location via CLI where you want to download it):
+
+`wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks`. 
+
+Then use, `chmod +x winetricks`.
 
 The last command is going to actually establish your wine prefix and set it up for operation. You want to run the following command, but the paths have to be accurate in the command line. I'll go ahead and add the common paths for most users:<br>
 
