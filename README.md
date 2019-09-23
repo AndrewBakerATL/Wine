@@ -1,5 +1,6 @@
 # Wine
-A set of instructions for those installing wine on debian-based Linux distributions, designed to give the program loader and winetricks.
+A set of instructions for those installing wine on debian-based Linux distributions, designed to give the program loader and winetricks.<br>
+<br>
 ![Photoshop](https://media.discordapp.net/attachments/510282789006868491/625562494618042379/unknown.png?width=972&height=547)
 Note: Proof that it works, running Photoshop CC above in, or through, wine.
 <br>
