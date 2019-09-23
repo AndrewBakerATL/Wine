@@ -14,7 +14,7 @@ Tested with:<br>
 `Wine 4.0+`<br>
 `Linux Kernel 5.0+`<br>
 `Kubuntu / Ubuntu 19.04`<br>
-# Installtion
+# Installation
 This is assuming you don't have wine installed at all on your system. If you do, remove it by using the following command(s) `sudo apt purge wine` or `sudo apt purge wine*` *and* `sudo apt purge wine:1386`<br>
 <br>
 First we need to add the architecture and get the key with this:<br>
