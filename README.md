@@ -6,7 +6,7 @@ Note: Proof that it works, running Photoshop CC above in, or through, wine.
 <br>
 <br>
 ## What is Wine, or W.I.N.E.?
-Well, the literal translation is, Wine Is Not an Emulator. To put it simple, while Wine is a program loader, you could desribe it more like an on-the-fly instruction set that works in-tandem with Linux. Essentially what it does is allow Linux tp parse / read executable files, based on realtime translation.
+Well, the literal translation is, Wine Is Not an Emulator. To put it simple, while Wine is a program loader, you could desribe it more like an on-the-fly instruction set that works in-tandem with Linux. Essentially what it does is allow Linux to parse / read executable files, based on realtime translation.
 
 ## Requirements
 Tested with:<br>
