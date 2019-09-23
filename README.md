@@ -46,7 +46,7 @@ Note: If it prompts you to install Mono & Gecko, install them. They're needed of
 How does it work?<br>
 **A:** See above description under "What is Wine?" If that still doesn't make sense to you, I'm not really sure how to describe it in simpler terms that would, not that this is meant to be offensive.
 
-Can I run anythinfontsmoothg?<br>
+Can I run anything?<br>
 **A:** Yes and no. Technically, wine only offers translation for core windows files / extensions. So you might be able to run and parse executable, as well as their .dll's, but that doesn't in-turn mean that you'll be able to set up every dependency that a program might need. Some are available, some aren't. Many mainstream programs and games can be ran though. Another thing to note is that it depends on which prefix you use. In some cases, 64-bit wine prefixes / installations *can't* actually run 32-bit applications. It's possible to have both prefix types installed, but it's a little more complicated.
 
 Is Wine resource intensive?<br>
