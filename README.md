@@ -24,8 +24,12 @@ First we need to add the architecture and get the key with this:<br>
 After, we need to add the actual repository:<br>
 Note: Rather than adding each command for each release structure, I'll just explain the process. Each Ubuntu release is given a reference name, which is later referenced in various PPA's. To edit this, or check for a newer release, just amend that name to the newer version (ie: Disco, Bionic, Xenial).<br>
 
+<br>
+
 **Ubuntu 19.04:**<br>
 `sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'`<br>
+
+<br>
 
 Now, to install the actual Wine application, use the following:<br>
 First, we need to update the actual repository we just added with `sudo apt-get update`. Afterwards, we can check for the package(s) with `sudo apt-get install --install-recommends winehq-stable`. After, go ahead and check the installation and version with `wine --version`.<br>
